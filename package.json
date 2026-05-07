@@ -1,6 +1,6 @@
 {
   "name": "@nuro-finance/cli",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Nuro CLI. Agentic finance, orchestrated from your terminal.",
   "keywords": [
     "nuro",
