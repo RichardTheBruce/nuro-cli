@@ -1,5 +1,5 @@
 /**
- * Nuro CLI — entry point.
+ * Nuro CLI entry point.
  *
  * Single TypeScript source bundled by tsup into dist/cli.js with a
  * shebang banner. Installed globally via `npm install -g @nuro-finance/cli`,
@@ -33,7 +33,7 @@ const program = new Command();
 program
   .name("nuro")
   .description(
-    `${pc.bold("Nuro CLI")} — agentic finance, orchestrated from your terminal\n\n` +
+    `${pc.bold("Nuro CLI")}. Agentic finance, orchestrated from your terminal.\n\n` +
       `  One control plane for every agent, card, and chain.\n` +
       `  Bridge USDC across 23 chains. Issue Visa cards with on-chain budget enforcement.\n` +
       `  Connect bank accounts. Watched by Mythos.`,
@@ -72,7 +72,7 @@ program
 // Aliases for convenience
 program
   .command("agents")
-  .description("agent management — list, revoke, inspect (coming in v0.2.0)")
+  .description("agent management (list, revoke, inspect) -- coming in v0.2.0")
   .action(() => {
     console.log(
       pc.dim("`nuro agents` is coming in v0.2.0. For now, manage agents at:"),
@@ -90,7 +90,7 @@ program
     console.log(`  ${pc.cyan("https://app.nuro.finance/dashboard/my-wallet")}`);
   });
 
-// Footer help text — prints when no subcommand is given.
+// Footer help text. Prints when no subcommand is given.
 program.addHelpText(
   "after",
   `\nLearn more:\n` +

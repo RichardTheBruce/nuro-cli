@@ -1,6 +1,6 @@
 # @nuro-finance/cli
 
-> Nuro CLI — agentic finance, orchestrated from your terminal.
+> Nuro CLI - agentic finance, orchestrated from your terminal.
 
 The neo-bank where your AI agents work for you. 23 chains via LayerZero V2 + Circle CCTP. Visa rails. x402 native. Watched by Mythos.
 
@@ -34,19 +34,19 @@ nuro register-agent   # register an agent connector (preview)
 
 ## Roadmap
 
-**v0.2.0 — Authenticated commands:**
-- `nuro auth login` — device-code flow, stores token in `~/.nuro/credentials`
-- `nuro auth status` — show logged-in state
-- `nuro register-agent` — wires through to `POST /api/connectors/agent` for real
-- `nuro agents list` — list your registered agents
-- `nuro agents revoke <id>` — kill an agent connector
+**v0.2.0 - Authenticated commands:**
+- `nuro auth login` - device-code flow, stores token in `~/.nuro/credentials`
+- `nuro auth status` - show logged-in state
+- `nuro register-agent` - wires through to `POST /api/connectors/agent` for real
+- `nuro agents list` - list your registered agents
+- `nuro agents revoke <id>` - kill an agent connector
 
-**v0.3.0 — Wallet ergonomics:**
-- `nuro wallet status` — balances across all chains
-- `nuro wallet transactions` — recent activity
-- `nuro topup <agent> <amount>` — fund agent budgets via card or USDC
+**v0.3.0 - Wallet ergonomics:**
+- `nuro wallet status` - balances across all chains
+- `nuro wallet transactions` - recent activity
+- `nuro topup <agent> <amount>` - fund agent budgets via card or USDC
 
-**v1.0.0 — Production:**
+**v1.0.0 - Production:**
 - Shell completions (bash / zsh / fish / pwsh)
 - `nuro card status` / `nuro card freeze`
 - `nuro markets *` for prediction-market data
@@ -62,4 +62,4 @@ nuro register-agent   # register an agent connector (preview)
 
 ## License
 
-MIT — see [LICENSE](./LICENSE).
+MIT - see [LICENSE](./LICENSE).

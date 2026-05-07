@@ -1,5 +1,5 @@
 /**
- * `nuro register-agent` — register a new agent connector.
+ * `nuro register-agent`. Register a new agent connector.
  *
  * v0.1.0 scope: STUB. Prints the args the user provided + a clear
  * "this lands in v0.2.0" message + a link to the dashboard surface

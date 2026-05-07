@@ -1,8 +1,8 @@
 /**
- * `nuro dashboard` — opens the user's dashboard in their default browser.
+ * `nuro dashboard`. Opens the user's dashboard in their default browser.
  *
  * Once auth lands in v0.2.0, this will deep-link directly into the
- * authenticated dashboard. Today it just opens the entry URL — if the
+ * authenticated dashboard. Today it just opens the entry URL. If the
  * user isn't signed in, the app's own auth gate redirects them through
  * /login.
  */

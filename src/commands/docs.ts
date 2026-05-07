@@ -1,5 +1,5 @@
 /**
- * `nuro docs` — opens the Skills catalog page in the user's default browser.
+ * `nuro docs`. Opens the Skills catalog page in the user's default browser.
  *
  * Why /skills as the docs entry point: it's the marketing-grade page that
  * lays out every Nuro capability (the neo-bank pillars, the pantheon,
